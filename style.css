@@ -38,6 +38,13 @@ body {
   font-style: normal;
 }
 
+ .nav-tag
+ {
+    font-family: 'XrayTedSkew', sans-serif;
+    letter-spacing: 4px;
+    text-shadow: 0 0 10px #d4c5c5;
+ }
+
 .logo-font {
   font-family: 'XrayTedSkew', sans-serif;
   letter-spacing: 4px;
@@ -108,7 +115,17 @@ nav a:hover {
   margin-bottom: 1.5rem;
 }
 
+@font-face {
+  font-family: 'punk';
+  src: url("fonts/punk\ kid.woff2") format("woff2"),
+       url("fonts/punk\ kid.woff") format("woff"),
+       url("fonts/punk\ kid.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
 .hero-buttons .btn {
+  font-family: "punk", sans-serif;
   display: inline-block;
   padding: 0.6rem 1.4rem;
   margin-right: 0.6rem;
@@ -117,6 +134,20 @@ nav a:hover {
   color: var(--text);
   transition: all 0.3s;
   border-radius: 4px;
+}
+
+.btn
+{
+  font-family: "punk", sans-serif;
+  display: inline-block;
+  padding: 0.6rem 1.4rem;
+  margin-right: 0.6rem;
+  border: 2px solid var(--text);
+  text-decoration: none;
+  color: var(--text);
+  transition: all 0.3s;
+  border-radius: 4px;
+  letter-spacing: 2px;
 }
 
 .hero-buttons .btn:hover {
